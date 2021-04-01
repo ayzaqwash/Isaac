@@ -65,6 +65,10 @@ body {
     font-size: 4rem;
     margin-bottom: 2rem;
 }
+.showcase-content .btn:hover {
+background: #3693ff;
+color: #fff;
+}
 .btn {
     color: royalblue;
     text-decoration: none;
