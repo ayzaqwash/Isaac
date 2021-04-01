@@ -41,3 +41,6 @@ body {
     margin: 0 0.5rem;
     border-radius: 5px;
 }
+#navbar li a:hover {
+    background-color: #3693ff;
+}
