@@ -11,6 +11,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
     overflow: hidden;
+    /* utility classes */
+    .container {
+        max-width: 1100px;
+        margin: auto;
+    }
 }
 /* Navbar */
 #navbar {
@@ -45,7 +50,7 @@ body {
     background-color: #3693ff;
 }
 /* showcase area */
-#container {
+#showcase {
     background: url(../resume/image.jpeg) no-repeat center center/cover;
 }
 .showcase-content {
@@ -68,12 +73,13 @@ body {
 .showcase-content .btn:hover {
 background: #3693ff;
 color: #fff;
+padding: 1rem 10rem;
 }
 .btn {
     color: royalblue;
     text-decoration: none;
     display: inline-block;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border: 1px solid #3693ff;
     border-radius: 10px;
     font-weight: bold;
