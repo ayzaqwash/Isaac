@@ -24,3 +24,8 @@ body {
     z-index: 1;
     border-bottom: 3px solid #3693ff;
 }
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
