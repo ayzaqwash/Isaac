@@ -12,3 +12,15 @@ body {
     line-height: 1.4;
     overflow: hidden;
 }
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background: burlywood;
+    color: darkblue;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+}
