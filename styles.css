@@ -1,6 +1,9 @@
-.zac {
-    color: crimson;
+h1 {
+    color: red;
 }
-p {
-    color: crimson;
+/* general styling */
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
 }
