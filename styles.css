@@ -44,3 +44,25 @@ body {
 #navbar li a:hover {
     background-color: #3693ff;
 }
+/* showcase area */
+#showcase {
+    background: url(../resume/image.jpeg) no-repeat center center/cover;
+}
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(red, green, blue, alpha);
+    }
+.showcase-content h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
