@@ -65,4 +65,12 @@ body {
     font-size: 4rem;
     margin-bottom: 2rem;
 }
-
+.btn {
+    color: royalblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    border: 1px solid #3693ff;
+    border-radius: 10px;
+    font-weight: bold;
+}
