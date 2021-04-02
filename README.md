@@ -2,7 +2,7 @@
 ## Author
 Isaac Wachira
 ## Description
-Its a website that expalins more about myself, my qualifications and contant information
+Its a website that expalins more about myself, my qualifications relating to programming and contant information
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
