@@ -3,12 +3,12 @@ h1 {
 }
 /* general styling */
 * {
-    margin: 0;
+    margin: 10px;
     padding-left: 0;
     box-sizing: border-box;
     overflow: auto;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 .scroll {
     overflow: auto;
@@ -62,12 +62,11 @@ body {
     background: url(../resume/image.jpeg) no-repeat center center/cover;
 }
 .showcase-content {
-    display: flex;
-    flex-direction: column;
+    display: block;
     text-align: center;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     top: 81px;
     left: 0;
     bottom: 0;
@@ -76,7 +75,7 @@ body {
     }
 .showcase-content h1 {
     font-size: 4rem;
-    margin-bottom: 80rem;
+    margin-bottom: 50rem;
 }
 .showcase-content .btn:hover {
 background: #3693ff;
@@ -98,7 +97,7 @@ margin-bottom: 80rem;
 #about {
     padding: 5rem 0;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 50%;
     margin-top: 15%;
 }
 #about h2 {
@@ -118,7 +117,7 @@ margin-bottom: 80rem;
     text-align: center;
 }
 #about .about-content {
-    display: inline-flex;
+    display: inline-table;
     position: absolute;
     text-align: center;
 }
